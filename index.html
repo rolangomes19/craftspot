@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aquiline International</title>
+<meta name="description" content="Aviation solutions since 1999. Cargo, passenger, ACMI and leasing on our own Boeing 747, 777 and 737 aircraft.">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- NAV: transparent over the hero, solid once the page scrolls. Fleet and Solutions open a shared sheet. -->
+<header class="nav" id="nav">
+<div class="nav-sheet" aria-hidden="true"></div>
+<div class="wrap nav-in">
+<a class="nav-logo" href="#top" aria-label="Aquiline International, home"><img class="on-hero" src="./assets/logo-white.svg" alt="Aquiline International"><img class="on-solid" src="./assets/logo-colour.svg" alt="" aria-hidden="true"></a>
+<nav class="nav-links" aria-label="Main">
+<button type="button" aria-expanded="false" aria-controls="mega-fleet" data-menu="fleet">Fleet <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+<button type="button" aria-expanded="false" aria-controls="mega-sol" data-menu="sol">Solutions <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+<a href="#industries">Industries</a>
+<a href="#about">About Us</a>
+<a href="#news">News</a>
+<a href="#contact">Contact Us</a>
+</nav>
+<button type="button" class="nav-menu" aria-expanded="false" aria-controls="mega-mobile" data-menu="mobile"><span>Menu</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9h16M4 15h16"/></svg></button>
+</div>
+<div class="mega"><div class="mega-clip">
+<div class="mega-panel" id="mega-fleet" role="region" aria-label="Fleet" hidden><div class="wrap mega-in">
+<div class="mega-intro"><h2>Our fleet</h2><p>Boeing 747, 777 and 737 aircraft that we own and operate ourselves.</p><a class="link" href="#fleet"><span>See the full fleet</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+<div class="mega-tiles two">
+<a class="tile" href="#fleet" data-fleet="cargo"><div class="tile-art"><img src="./assets/sol-cargo.jpg" alt="" style="object-position: 70% 50%"></div><div><strong>Cargo aircraft</strong><small>747-400BCF and 737-300F freighters for general, outsized and time-critical freight.</small></div></a>
+<a class="tile" href="#fleet" data-fleet="pax"><div class="tile-art"><img src="./assets/sol-pax.jpg" alt="" style="object-position: 35% 40%"></div><div><strong>Passenger aircraft</strong><small>747-400 and 777-200ER long-haul aircraft, flown with our own cabin crew.</small></div></a>
+</div></div></div>
+<div class="mega-panel" id="mega-sol" role="region" aria-label="Solutions" hidden><div class="wrap mega-in">
+<div class="mega-intro"><h2>Solutions</h2><p>Aircraft, crew and operations control behind every mission.</p><a class="link" href="#solutions"><span>All solutions</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+<div class="mega-tiles">
+<a class="tile" href="#solutions"><div class="tile-art"><img src="./assets/sol-cargo.jpg" alt="" style="object-position: 70% 50%"></div><div><strong>Cargo charter</strong><small>General, outsized and time-critical freight.</small></div></a>
+<a class="tile" href="#solutions"><div class="tile-art"><img src="./assets/sol-pax.jpg" alt="" style="object-position: 35% 40%"></div><div><strong>Passenger and group charter</strong><small>Sports, pilgrimage, government and corporate groups.</small></div></a>
+<a class="tile" href="#solutions"><div class="tile-art"><img src="./assets/sol-acmi.jpg" alt="" style="object-position: 65% 50%"></div><div><strong>ACMI and leasing</strong><small>Aircraft, crew, maintenance and insurance.</small></div></a>
+</div></div></div>
+<div class="mega-panel" id="mega-mobile" role="region" aria-label="Menu" hidden><div class="wrap m-links">
+<a href="#fleet">Fleet</a><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#about">About Us</a><a href="#news">News</a><a href="#contact">Contact Us</a>
+</div></div>
+</div></div>
+</header>
+
+<main id="top">
+
+<!-- HERO: the photo stands in for a video loop. Slow push-in, scroll parallax, wing swings away. -->
+<section class="hero" aria-label="Introduction">
+<div class="hero-media" aria-hidden="true">
+<img src="./assets/hero.jpg" alt="" fetchpriority="high">
+<div class="hero-tint"></div>
+<div class="hero-shade"></div>
+</div>
+<div class="wing-tl" aria-hidden="true">
+<svg viewBox="0 0 560 140" width="560" height="140"><path class="w-lite" d="M -900 -500 H 600 V 0 C 450 86 215 142 0 150 H -900 Z"/><path class="w-deep" d="M -900 -500 H 560 V 0 C 420 72 195 122 0 130 H -900 Z"/></svg>
+</div>
+<div class="wrap hero-copy">
+<h1 class="display"><span class="ln"><span>Ready for your</span></span> <span class="ln"><span>next Mission</span></span></h1>
+</div>
+<button type="button" class="hero-pause" aria-pressed="false" aria-label="Pause background video">
+<span class="ic"><svg class="i-pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a.8.8 0 0 0 1.2.7l10.5-6.5a.8.8 0 0 0 0-1.4L9.200 4.800A.8.8 0 0 0 8 5.500z"/></svg></span><span class="lbl">Pause</span>
+</button>
+<svg class="wing wing-bottom" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true"><path d="M0 228 C 520 226 1010 160 1440 28 C 1010 126 520 210 0 228 Z" fill="#FFFFFF" fill-opacity="0.26"/><path d="M0 260 C 520 258 1010 192 1440 60 L 1440 260 Z" fill="#FFFFFF"/><path d="M0 228 C 520 210 1010 126 1440 -2" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M0 228 C 520 226 1010 160 1440 28" fill="none" stroke="#A6B7EF" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
+</section>
+
+<!-- ABOUT + NUMBER OF OPERATIONS -->
+<section class="sec about" id="about">
+<div class="wrap">
+<div class="grid">
+<div class="about-copy">
+<h2 class="h2">About Us</h2>
+<p class="body">Aquiline International is an aviation solutions provider founded in 1999. Based in the United Arab Emirates and Moldova, we own and operate a fleet of Boeing 747, 777 and 737 aircraft.</p>
+<p class="body">We move cargo and passengers on our own aircraft, and we provide charter, ACMI and aircraft leasing for customers who need capacity on their terms.</p>
+<p class="body">From scheduled movements to on-demand charters, we put aircraft, crew and operations behind the mission. Find out more about us and our history.</p>
+<div class="about-cta"><a class="btn btn-deep" href="#about">More about us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+</div>
+<figure class="about-visual"><div class="disc"></div><div class="ground"></div><img class="crew" src="./assets/crew.webp" alt="Aquiline International crew in Aviation Blue uniforms, smiling, standing together"></figure>
+</div>
+<dl class="stats" aria-label="Number of operations">
+<div class="stat"><dt class="stat-l">Years in aviation</dt><dd class="stat-n num"><span data-count="25">25</span><sup>+</sup></dd></div>
+<div class="stat"><dt class="stat-l">Operations control, every day</dt><dd class="stat-n num">24/7</dd></div>
+<div class="stat"><dt class="stat-l">Continents served</dt><dd class="stat-n num"><span data-count="6">6</span></dd></div>
+<div class="stat"><dt class="stat-l">Flight hours a year</dt><dd class="stat-n num"><span data-count="10">10</span>K<sup>+</sup></dd></div>
+</dl>
+</div>
+</section>
+
+<!-- SOLUTIONS -->
+<section class="sec sec-tint" id="solutions">
+<div class="wrap">
+<div class="head">
+<h2 class="h2">Charter, ACMI and leasing on your terms</h2>
+<p class="body head-aside">Every solution runs on our own aircraft, crews and operations control. Tell us the load, the route and the deadline. We plan the flight, clear the permits and stay with it until the aircraft is back on stand.</p>
+</div>
+<div class="sol-grid" data-rv>
+<a class="sol" href="#solutions" style="--i:0">
+<div class="duo"><img src="./assets/sol-cargo.jpg" alt="" style="object-position: 70% 50%"></div>
+<div class="sol-body">
+<h3 class="h3">Cargo charter</h3>
+<p>Whole-aircraft capacity for general, outsized and time-critical freight, routed and handled by our own operations team.</p>
+<div class="sol-foot"><span class="caption">747-400BCF and 737-300F</span><span class="circ" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</div>
+</a>
+<a class="sol" href="#solutions" style="--i:1">
+<div class="duo"><img src="./assets/sol-pax.jpg" alt="" style="object-position: 35% 40%"></div>
+<div class="sol-body">
+<h3 class="h3">Passenger and group charter</h3>
+<p>Government, sports, pilgrimage and corporate groups flown on your schedule, with our cabin crew and your configuration.</p>
+<div class="sol-foot"><span class="caption">747-400 and 777-200ER</span><span class="circ" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</div>
+</a>
+<a class="sol" href="#solutions" style="--i:2">
+<div class="duo"><img src="./assets/sol-acmi.jpg" alt="" style="object-position: 65% 50%"></div>
+<div class="sol-body">
+<h3 class="h3">ACMI and aircraft leasing</h3>
+<p>Aircraft, crew, maintenance and insurance placed into your network, for a single peak or a full season.</p>
+<div class="sol-foot"><span class="caption">Wet, damp and dry lease</span><span class="circ" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<!-- INDUSTRIES (cards are rendered from data in app.js) -->
+<section class="sec sec-deep on-blue ind" id="industries">
+<div class="ind-pattern" aria-hidden="true"></div>
+<div class="wrap">
+<div class="head head-solo">
+<h2 class="h2">Industries we serve</h2>
+</div>
+<ul class="acc" id="acc" aria-label="Industries"></ul>
+<div class="ind-foot">
+<a class="link" href="#industries"><span>Industries we operate</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+</div>
+</section>
+
+<!-- FLEET -->
+<section class="sec" id="fleet">
+<div class="wrap">
+<div class="head">
+<h2 class="h2">Explore our fleet</h2>
+<div class="head-tools">
+<div class="tabs" role="tablist" aria-label="Aircraft type">
+<span class="tab-ind" aria-hidden="true"></span>
+<button type="button" class="tab" role="tab" id="tab-cargo" aria-controls="panel-cargo" aria-selected="true">Cargo aircraft</button>
+<button type="button" class="tab" role="tab" id="tab-pax" aria-controls="panel-pax" aria-selected="false" tabindex="-1">Passenger aircraft</button>
+</div>
+</div>
+</div>
+<div class="fleet-stage">
+<div class="livery-wrap"><div class="livery" role="img" aria-label="Boeing aircraft in Aquiline livery, side view"></div></div>
+<span class="caption">Livery concept, illustrative</span>
+</div>
+<div class="fleet-grid" id="panel-cargo" role="tabpanel" aria-labelledby="tab-cargo">
+<article class="craft">
+<div class="craft-top"><h3 class="h3">Boeing 747-400BCF</h3><span class="caption">Main-deck freighter</span></div>
+<dl class="specs">
+<div class="spec"><dt>Max payload</dt><dd class="num">113<small>t</small></dd></div>
+<div class="spec"><dt>Range</dt><dd class="num">7,200<small>km</small></dd></div>
+<div class="spec"><dt>Total cargo volume</dt><dd class="num">660<small>m³</small></dd></div>
+</dl>
+</article>
+<article class="craft">
+<div class="craft-top"><h3 class="h3">Boeing 737-300F</h3><span class="caption">Regional freighter</span></div>
+<dl class="specs">
+<div class="spec"><dt>Max payload</dt><dd class="num">19.7<small>t</small></dd></div>
+<div class="spec"><dt>Range</dt><dd class="num">3,000<small>km</small></dd></div>
+<div class="spec"><dt>Total cargo volume</dt><dd class="num">141<small>m³</small></dd></div>
+</dl>
+</article>
+</div>
+<div class="fleet-grid" id="panel-pax" role="tabpanel" aria-labelledby="tab-pax" hidden>
+<article class="craft">
+<div class="craft-top"><h3 class="h3">Boeing 747-400</h3><span class="caption">Long-haul, three classes</span></div>
+<dl class="specs">
+<div class="spec"><dt>Seats</dt><dd class="num">416</dd></div>
+<div class="spec"><dt>Range</dt><dd class="num">13,450<small>km</small></dd></div>
+<div class="spec"><dt>Total payload</dt><dd class="num">62<small>t</small></dd></div>
+</dl>
+<div class="config" aria-hidden="true"><i style="flex: 52; background: #263F9E"></i><i style="flex: 32; background: #3457D5"></i><i style="flex: 332; background: #A6B7EF"></i></div>
+<div class="config-key"><span><b style="background: #263F9E"></b>Business 52</span><span><b style="background: #3457D5"></b>Premium 32</span><span><b style="background: #A6B7EF"></b>Economy 332</span></div>
+</article>
+<article class="craft">
+<div class="craft-top"><h3 class="h3">Boeing 777-200ER</h3><span class="caption">Long-haul, three classes</span></div>
+<dl class="specs">
+<div class="spec"><dt>Seats</dt><dd class="num">313</dd></div>
+<div class="spec"><dt>Range</dt><dd class="num">13,080<small>km</small></dd></div>
+<div class="spec"><dt>Total payload</dt><dd class="num">54<small>t</small></dd></div>
+</dl>
+<div class="config" aria-hidden="true"><i style="flex: 42; background: #263F9E"></i><i style="flex: 24; background: #3457D5"></i><i style="flex: 247; background: #A6B7EF"></i></div>
+<div class="config-key"><span><b style="background: #263F9E"></b>Business 42</span><span><b style="background: #3457D5"></b>Premium 24</span><span><b style="background: #A6B7EF"></b>Economy 247</span></div>
+</article>
+</div>
+<div class="fleet-foot">
+<p class="caption">Indicative figures. Final specifications to be confirmed by Aquiline.</p>
+<a class="btn btn-deep" id="fleet-more" href="#fleet">Learn more about our cargo aircraft <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+</div>
+</section>
+
+<!-- NETWORK: map, routes and a quiet split-flap board. Pins, rows and routes come from one list in app.js. -->
+<section class="sec sec-blue on-blue net" id="network">
+<div class="wrap">
+<div class="net-grid">
+<div class="net-copy">
+<h2 class="h2">A network built out from Sharjah</h2>
+<p class="body">Our operations centre in Sharjah plans and supports every rotation, with a second base in Chișinău for Europe. These are the airports we serve most often today.</p>
+<p class="net-hint caption">Point at an airport to trace its route from Sharjah.</p>
+</div>
+<div class="map" id="map" role="img" aria-label="Map of the 14 airports Aquiline serves, with routes from Sharjah">
+<img src="./assets/map.svg" alt="">
+<svg class="routes" id="routes" viewBox="0 0 1850 1120" aria-hidden="true"></svg>
+<div id="pins"></div>
+</div>
+<div class="board" aria-label="Airports served">
+<div class="board-head"><h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.100.5l-.3.5c-.2.5-.1 1 .3 1.300L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.500 5.300c.3.4.8.5 1.300.3l.5-.2c.4-.3.6-.7.5-1.200z"/></svg>Airports we serve</h3><span class="board-meta">14 airports</span></div>
+<div class="board-cols" id="board"></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PARTNERS -->
+<section class="partners" aria-labelledby="partners-h">
+<div class="wrap partners-in">
+<div>
+<h2 class="h3" id="partners-h">Partners</h2>
+<p class="caption">Airlines, forwarders and agencies we fly with. Logos to follow on approval.</p>
+</div>
+<div class="marquee">
+<ul class="marquee-row" id="marquee"></ul>
+</div>
+</div>
+</section>
+
+<!-- NEWS -->
+<section class="sec sec-tint" id="news">
+<div class="wrap">
+<div class="head">
+<h2 class="h2">News from the ramp and the boardroom</h2>
+<div class="head-tools">
+<a class="link" href="#news"><span>View all news</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+</div>
+<div class="news-grid" aria-label="Latest news" data-rv>
+<article class="ncard ncard-lead" style="--i:0"><div class="pic"><div class="livery-tile"><div class="livery" role="img" aria-label="Boeing aircraft in Aquiline livery"></div></div><span class="cat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.100.5l-.3.5c-.2.5-.1 1 .3 1.300L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.500 5.300c.3.4.8.5 1.300.3l.5-.2c.4-.3.6-.7.5-1.200z"/></svg>Fleet</span></div><div class="ncard-text"><time datetime="2026-10-14">14 Oct 2026</time><h3 class="h3"><a href="#news">A second 747-400BCF joins the cargo fleet</a></h3></div></article>
+<div class="news-side">
+<article class="ncard ncard-row" style="--i:1"><div class="pic"><img src="./assets/news-2.jpg" alt="" style="object-position: 40% 50%"><span class="cat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.500 7-11a7 7 0 1 0-14 0c0 5.500 7 11 7 11z"/><circle cx="12" cy="10" r="2.500"/></svg>Operations</span></div><div class="ncard-text"><time datetime="2026-10-02">2 Oct 2026</time><h3 class="h3"><a href="#news">New handling partnership at Liège for European cargo flows</a></h3></div></article>
+<article class="ncard ncard-row" style="--i:2"><div class="pic"><img src="./assets/news-3.jpg" alt="" style="object-position: 40% 50%"><span class="cat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 20v-1.500a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4V20M10 11a3.500 3.500 0 1 0 0-7 3.500 3.500 0 0 0 0 7M20 20v-1.500a4 4 0 0 0-3-3.800M15 4.200a3.500 3.500 0 0 1 0 6.600"/></svg>People</span></div><div class="ncard-text"><time datetime="2026-09-18">18 Sep 2026</time><h3 class="h3"><a href="#news">Forty cabin crew complete their type rating in Sharjah</a></h3></div></article>
+<article class="ncard ncard-row" style="--i:3"><div class="pic"><img src="./assets/news-4.jpg" alt="" style="object-position: 40% 50%"><span class="cat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="17" r="2"/><circle cx="19" cy="7" r="2"/><path d="M7 17c7 0 3-10 10-10"/></svg>Charter</span></div><div class="ncard-text"><time datetime="2026-09-05">5 Sep 2026</time><h3 class="h3"><a href="#news">777-200ER flies 300 delegates to a summit in Nairobi</a></h3></div></article>
+<article class="ncard ncard-row" style="--i:4"><div class="pic"><img src="./assets/news-5.jpg" alt="" style="object-position: 40% 50%"><span class="cat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></svg>Brand</span></div><div class="ncard-text"><time datetime="2026-08-22">22 Aug 2026</time><h3 class="h3"><a href="#news">Aquiline unveils its new livery and identity</a></h3></div></article>
+</div>
+</div>
+</div>
+</section>
+
+<!-- END BAND -->
+<section class="cta on-blue" id="contact" aria-labelledby="cta-h">
+<div class="cta-pattern" aria-hidden="true"></div>
+<svg class="wing wing-top" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 L 1440 0 L 1440 0 C 1010 132 520 198 0 200 Z" fill="#F7F9FC"/></svg>
+<div class="wrap cta-in">
+<h2 class="h2" id="cta-h">Tell us what needs to move, and where.</h2>
+<div class="cta-actions">
+<a class="btn btn-white" href="#contact">Request a Quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="btn btn-line" href="#contact">Contact Us</a>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="foot on-blue">
+<div class="wrap">
+<div class="foot-grid">
+<div class="foot-brand">
+<img src="./assets/logo-white.svg" alt="Aquiline International">
+<p>Aviation solutions since 1999. Cargo, passenger, ACMI and leasing from the UAE and Moldova.</p>
+<div class="socials">
+<a href="#contact" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"/></svg></a>
+<a href="#contact" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.2-4.1A8 8 0 1 1 8.3 19z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9c-1.2-.5-2.3-1.6-2.8-2.8l.9-1-1-2z"/></svg></a>
+<a href="#contact" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M8 10.5V16M8 7.8v.1M11.5 16v-5.5M11.5 13c0-1.6 1-2.6 2.4-2.6s2.1 1 2.1 2.6v3"/></svg></a>
+<a href="#contact" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 21v-7.5h2.6l.4-3h-3V8.7c0-.9.3-1.5 1.6-1.5h1.5V4.5a20 20 0 0 0-2.3-.1c-2.3 0-3.8 1.4-3.8 3.9v2.2H9v3h2.5V21"/></svg></a>
+</div>
+</div>
+<nav class="foot-col first" aria-labelledby="f-company">
+<h3 id="f-company">Company</h3>
+<a href="#about">About Us</a><a href="#industries">Industries</a><a href="#news">News</a><a href="#contact">Contact Us</a>
+</nav>
+<nav class="foot-col" aria-labelledby="f-fleet">
+<h3 id="f-fleet">Fleet and solutions</h3>
+<a href="#fleet">Cargo aircraft</a><a href="#fleet">Passenger aircraft</a><a href="#solutions">Cargo charter</a><a href="#solutions">Passenger charter</a><a href="#solutions">ACMI and leasing</a>
+</nav>
+<div class="foot-col wide">
+<h3>Contact</h3>
+<address>P.O. Box 8187, SAIF Zone, Bld. A3-039<br>Sharjah International Airport<br>Sharjah, UAE</address>
+<a href="tel:+97165570710" class="num">+971 6 557 0710</a>
+<a href="mailto:info@aquiline-aero.com">info@aquiline-aero.com</a>
+</div>
+</div>
+<div class="foot-bar">
+<p>© 2026 Aquiline International. All rights reserved.</p>
+<nav aria-label="Legal"><a href="#top">Privacy</a><a href="#top">Terms</a></nav>
+</div>
+</div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
